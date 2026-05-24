@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#162544"/>
+      <stop offset="100%" style="stop-color:#0F1D35"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D4BC7E"/>
+      <stop offset="100%" style="stop-color:#C9A84C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect x="2" y="2" width="60" height="60" rx="14" ry="14" fill="url(#bgGrad)"/>
+
+  <!-- Outer border -->
+  <rect x="4" y="4" width="56" height="56" rx="12" ry="12" fill="none" stroke="#D4BC7E" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- Scales of Justice - Center Pillar -->
+  <rect x="30.5" y="14" width="3" height="32" rx="1.5" fill="#D4BC7E"/>
+
+  <!-- Top beam -->
+  <rect x="17" y="14" width="30" height="3" rx="1.5" fill="#D4BC7E"/>
+
+  <!-- Top circle ornament -->
+  <circle cx="32" cy="11" r="3.5" fill="none" stroke="#D4BC7E" stroke-width="1.8"/>
+  <circle cx="32" cy="11" r="1.2" fill="#D4BC7E"/>
+
+  <!-- Left pan -->
+  <line x1="18.5" y1="17" x2="14" y2="28" stroke="#D4BC7E" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="25.5" y1="17" x2="30" y2="28" stroke="#D4BC7E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M11 28 Q22 34 33 28" fill="none" stroke="#D4BC7E" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Right pan -->
+  <line x1="38.5" y1="17" x2="34" y2="26" stroke="#D4BC7E" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="45.5" y1="17" x2="50" y2="26" stroke="#D4BC7E" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M31 26 Q42 32 53 26" fill="none" stroke="#D4BC7E" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Base -->
+  <path d="M24 46 L40 46 L44 50 Q44 53 32 53 Q20 53 20 50 Z" fill="#D4BC7E" opacity="0.9"/>
+
+  <!-- NR text -->
+  <text x="32" y="61" text-anchor="middle" font-family="Georgia, serif" font-size="7" font-weight="bold" fill="#D4BC7E" opacity="0.7">NR</text>
+</svg>
